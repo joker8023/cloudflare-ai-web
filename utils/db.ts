@@ -123,6 +123,16 @@ export const textGenModels: Model[] = [{
     name: 'llama-3-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
+}, {
+    id: '@cf/deepseek-ai/deepseek-math-7b-instruct',
+    name: 'deepseek-math-7b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+},{
+    id: '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
+    name: 'deepseek-r1-distill-qwen-32b',
+    provider: 'workers-ai',
+    type: 'chat'
 }]
 
 export const imageGenModels: Model[] = [{

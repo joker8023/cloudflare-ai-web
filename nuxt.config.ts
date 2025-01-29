@@ -14,11 +14,11 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            title: 'CF AI Web',
+            title: 'AI',
             meta: [
                 {
                     name: 'keywords',
-                    content: 'CF AI Web, AI, Cloudflare Workers, ChatGPT, GeminiPro, Google Generative AI'
+                    content: 'AI Web, AI, Cloudflare Workers, ChatGPT, GeminiPro, Google Generative AI'
                 },
                 {
                     name: 'description',

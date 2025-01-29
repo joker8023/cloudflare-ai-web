@@ -131,8 +131,8 @@ const handlePaste = (e: ClipboardEvent) => {
                  @keydown.prevent.enter="handleInput($event)"
                  @paste="handlePaste"
                  autofocus :rows="1" autoresize
-                 class="flex-1 max-h-48 overflow-y-auto p-1"/>
-      <UButton @click="handleInput($event)" :disabled="loading" class="m-1">
+                 class="flex-1 overflow-y-auto p-1"/>
+      <UButton @click="handleInput($event)" :disabled="loading" class="m-1" >
         {{ $t('send') }}
       </UButton>
     </div>
